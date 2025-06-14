@@ -26,7 +26,7 @@
 - Core utilization set to **60%**
 - Aspect ratio of **1.0** (square)
 - Macros placed manually for minimal interference
-- IO pads placed **right-to-left**
+- IO pads placed **top-to-bottom**
 - Core boundary and routing halos defined
 
 ### 3. Power Planning
@@ -65,7 +65,8 @@
 | Macros Integrated    | 4                |
 | Utilization          | 60%              |
 | Aspect Ratio         | 1.0              |
-| IO Placement         | Right to Left    |
+| Shorts               | 0                |
+| IO Placement         | Top to bottom    |
 | Congestion           | None (0%)        |
 | DRC / LVS            | Clean            |
 | Worst Slack (WNS)    | Positive (Met)   |
@@ -77,10 +78,20 @@
 *Note: Screenshots not uploaded due to NDA*
 
 - Floorplan with macros and IO placement
+  ![Screenshot 2025-06-13 215442](https://github.com/user-attachments/assets/58bdf354-6c0e-4fe1-99a4-095bcca70036)
+
 - Placement view showing congestion-free layout
+  ![Screenshot 2025-06-13 215628](https://github.com/user-attachments/assets/f1fbe379-578a-4cf3-893b-2f1e029b94bd)
+
 - Clock Tree Viewer snapshot with balanced branches
+  ![Screenshot 2025-06-13 215713](https://github.com/user-attachments/assets/10467fde-729f-48a2-a45d-db2ca8f286c1)
+
 - Routing layout with metal layers and power nets
-- PrimeTime report screenshot of setup/hold results
+  ![Screenshot 2025-06-13 215933](https://github.com/user-attachments/assets/5af1d2ea-335d-44e4-af4f-a7ac9b390199)
+
+- With zero shorts
+  ![Screenshot 2025-06-13 220514](https://github.com/user-attachments/assets/e2ca0158-c24e-4f0d-a082-1466bc198dd2)
+
 
 ---
 
